@@ -1,4 +1,5 @@
 <br/>
+
 Hi, I'm studying Markdown
 ===
 
@@ -184,7 +185,7 @@ Hi, I'm studying Markdown
 > ### 방법 2.     ``` ![Alt text](#경로) ```
 <br />
 
-![Alt text](/path/to/img.jpg "cat")
+![Alt text](/img/cat.jpg "cat")
 
 <br />
 <br />
