@@ -88,8 +88,82 @@ each commits has identifier hashcode based snapshot info that are be version inf
 
 ### Make your own Repository 
 
-<img src="/img/makeRep.png" width="500px" height="500px" title="image1" alt="make Repository1"></img>
+<img src="/img/makeRep.png" width="800px" height="500px" title="image1" alt="make Repository1"></img>
 
-<img src="/img/makeRep2.png" width="500px" height="500px" title="image1" alt="make Repository1"></img>
+<br />
 
+<img src="/img/makeRep2.png" width="800px" height="500px" title="image1" alt="make Repository1"></img>
 
+## 2. Add Remote
+
+```
+	->  git remote add 'remote name' 'your git addr'
+```
+
+## 3. Add 
+
+```
+	-> git add * 
+	// add all files
+
+	-> git add *.txt
+	// add all files extension name is .txt
+
+	-> git add a.txt
+	// add a.txt
+```
+
+## 4. Commit
+
+```
+	-> git commit 
+``` 
+then your cmd become a vi editor mode
+1. press 'o' or 'i' or 'e' 
+2. typing any comment about your commit 
+3. press 'esc'
+4. typing ':wq' it means 'write and quit vi mode'
+
+## 5. Push
+
+```
+	-> git push 'remote name' 'branch name'
+```
+you can check your branch name on your github repository <br />
+or typing this on cmd
+```
+	-> git status
+```
+if you not edit any names, then default name is 'master'
+
+## 6. etc
+
+- git status
+```
+	-> git status
+```
+ ### explain about your git status
+
+<br />
+
+- git branch
+```
+	-> git branch 'branch name'
+```
+ ### make one branch
+
+<br />
+
+ - git check out
+```
+	-> git checkout 'branch name'
+```
+ ### move to branch name
+
+<br />
+
+ - git branch -d
+```
+	-> git branch -d 'branch name'
+```
+ ### delete branch name
