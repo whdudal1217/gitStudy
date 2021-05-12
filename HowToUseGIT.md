@@ -167,3 +167,48 @@ if you not edit any names, then default name is 'master'
 	-> git branch -d 'branch name'
 ```
  ### delete branch name
+
+<br/>
+
+-----
+
+# Git Ignore
+
+깃에 올리기 원하지 않는 파일은 .gitignore 확장자로 파일을 생성하면 됨.
+
+```
+
+# ignore all .class files
+# 무시하는 파일
+*.class
+
+# exclude lib.class from "*.class", meaning all lib.class are still tracked
+# 무시하지 않을 파일
+!lib.class
+
+# ignore all json files whose name begin with 'temp-'
+# 특정 문자로 시작하는 파일
+temp-*.json
+
+# only ignore the build.log file in current directory, not those in its subdirectories
+# 현재 디렉토리에서 무시할 파일
+/build.log
+
+# specify a folder with slash in the end
+# ignore all files in any directory named temp
+# 모든 디렉토리의 특정 파일 무시
+temp/
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+# 특정 경로의 특정 확장자 파일 무시
+bin/*.txt
+
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+# /** matches 0 or more directories
+# 특정 경로의 모든 하위폴더의 특정 확장자 파일 무시
+doc/**/*.pdf
+
+```
+
+#은 주석처리
+
